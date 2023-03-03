@@ -1,0 +1,239 @@
+html {
+
+    scroll-behavior: smooth;
+
+    font-family: 'UTM Avo';
+
+}
+
+body {
+
+    font-family: 'UTM Avo';
+
+}
+
+@font-face {
+
+    font-family: 'UTM Avo';
+
+    src: url('/assets/fonts/UTM-Avo.ttf') format('truetype');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+.wrapper-info {
+
+    background: #0099cd;
+
+    height: 100%;
+
+}
+
+.images-user img {
+
+    max-width: 150px;
+
+    border-radius: 50%;
+
+    border: 2px solid #fff;
+
+}
+
+.item-info h2 {
+
+    font-size: 1.3em;
+
+    text-align: center;
+
+    margin: 15px auto;
+
+    font-family: 'UTM Avo';
+
+    font-weight: bold;
+
+}
+
+.item-info h3 {
+
+    font-size: 1.2em;
+
+    text-align: center;
+
+    font-family: 'UTM Avo';
+
+}
+
+.item-cv-desc h3 {
+
+    font-size: 1.2em;
+
+    font-family: 'UTM Avo';
+
+    font-weight: 600;
+
+    text-transform: uppercase;
+    color: #0099cd;
+
+}
+
+.item-cv-desc p {
+    font-size: 15px;
+    font-family: 'UTM Avo';
+    margin-bottom: 0;
+    padding: 15px 0 00;
+}
+
+.item-cv-desc h3 i {
+
+    color: #0099cd;
+
+}
+
+.contacts-info p,
+.contacts-info a,
+.contacts-info a:hover,
+.contacts-info span {
+
+    color: #fff;
+
+    text-decoration: none;
+
+    font-family: 'UTM Avo';
+
+}
+
+.cv-dvn {
+
+    background: #fefefe;
+
+}
+
+.desc-cv {}
+
+.record-view {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+
+.item-cv-desc {
+
+    background-color: #fff;
+
+    padding: 15px;
+
+    margin-bottom: 15px;
+
+    border-radius: 3px;
+
+    -moz-border-radius: 3px;
+
+    -webkit-border-radius: 3px;
+
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+
+}
+
+.record-view {
+
+    border-bottom: 1px solid #cccccc4f;
+
+}
+
+.record-view:last-child {
+
+    border: none;
+
+}
+
+.record-view label {
+
+    font-weight: 600;
+
+}
+
+.record-view label,
+.record-view .value {
+    font-family: 'UTM Avo';
+}
+
+.pv-profile-section-body {
+
+    padding-top: 15px;
+
+}
+
+.record-view .value .fa,
+.record-view .value .fas {
+
+    color: #ff9900;
+
+}
+
+.sticky-sidebar {
+
+    position: -webkit-sticky;
+
+    position: sticky;
+
+    top: 0;
+
+}
+
+.footer-mobile {
+    background: #0099cd;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    display: none;
+    width: 100%;
+    padding: .5em 0 0;
+    text-align: center;
+    float: none;
+    margin: 5px auto 0;
+    position: -webkit-fixed;
+}
+
+.footer-mobile ul {
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.footer-mobile ul li {
+    list-style: none;
+    float: left;
+    margin: 0 5px;
+    border-right: 1px solid #fff;
+    padding: 0 10px 0 0px;
+}
+
+.footer-mobile ul li:last-child {
+    border: none !important;
+}
+
+.footer-mobile ul li a {
+    color: #fff;
+}
+
+.footer-mobile ul li a i {
+    font-size: 1.7em;
+}
+
+@media (max-width:767px) {
+    .desc-cv {
+        padding: 1em 0 !important;
+    }
+
+    .footer-mobile {
+        display: inline-block;
+    }
+}
